@@ -45,7 +45,7 @@ Para visualizar o projeto localmente, siga estes passos:
 
 ## 🔗 Links Úteis
 
--   **Figma do Projeto (referência):** [Link para o Figma do Desafio DIO](https://www.figma.com/file/seu-link-do-figma-aqui)
+-   **Figma do Projeto (referência):** [Link para o Figma do Desafio DIO]([https://www.figma.com/file/seu-link-do-figma-aqui](https://www.figma.com/design/lrRWUZPKnqMDZrSDJmZxUS/Desafio-de-Flexbox---DIO?node-id=0-1&p=f))
 -   **Desafio na DIO:** [Link para o Desafio no DIO Labs](https://web.dio.me/lab/clonando-a-pagina-do-youtube-com-css/learning/91b4e191-a60e-43e2-a1af-dae6772e61)
 
 ## 🤝 Contribuições
@@ -59,7 +59,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ## 📞 Contato
 
 -   **Seu Nome:** [Geferson Souza](https://github.com/Geferson-Souza) (Link para o seu perfil no GitHub)
--   **LinkedIn:** (https://www.linkedin.com/in/geferson-souza/))
+-   -   **LinkedIn:** [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/geferson-souza/)
 
 ---
 
