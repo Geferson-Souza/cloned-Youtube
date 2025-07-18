@@ -59,7 +59,7 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 ## 📞 Contato
 
 -   **Seu Nome:** [Geferson Souza](https://github.com/Geferson-Souza) (Link para o seu perfil no GitHub)
--   **LinkedIn:** [Seu perfil do LinkedIn](https://www.linkedin.com/in/seu-perfil-do-linkedin/)
+-   **LinkedIn:** (https://www.linkedin.com/in/geferson-souza/))
 
 ---
 
