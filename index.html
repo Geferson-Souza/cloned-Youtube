@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Cloned Youtube – Geferson</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="site-header__left">
+    <div class="hamburger-wrap">
+      <input type="checkbox" id="leftmenu-toggle" class="sr-only">
+      <label for="leftmenu-toggle" class="hamburger" aria-label="Abrir menu principal">
+        <span></span><span></span><span></span>
+      </label>
+      <nav class="left-drawer" aria-label="Menu principal">
+        <ul class="left-drawer__nav">
+          <li><a href="#" class="is-active">Início</a></li>
+          <li><a href="#">Explorar</a></li>
+          <li><a href="#">Inscrições</a></li>
+          <hr>
+          <li><a href="#">Biblioteca</a></li>
+          <li><a href="#">Histórico</a></li>
+          <li><a href="#">Seus vídeos</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <a href="#" class="brand" aria-label="Voltar para a Home">
+      <img src="assets/images/youtube.svg" alt="" width="90" height="20" loading="lazy">
+    </a>
+  </div>
+
+  <div class="site-header__center">
+    <form class="search-form" role="search" aria-label="Pesquisar vídeos">
+      <label for="search-input" class="sr-only">Pesquisar</label>
+      <input id="search-input" type="search" placeholder="Pesquisar" autocomplete="off">
+      <button type="submit" aria-label="Buscar">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+          <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" fill="none"/>
+        </svg>
+      </button>
+    </form>
+  </div>
+
+  <div class="site-header__right">
+    <button class="icon-button" aria-label="Enviar vídeo">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M23 7L16 12L23 17V7Z" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <rect x="1" y="5" width="15" height="14" rx="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+    <button class="icon-button" aria-label="Notificações">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M18 8C18 6.4 17.37 4.88 16.24 3.76C15.12 2.63 13.59 2 12 2C10.41 2 8.88 2.63 7.76 3.76C6.63 4.88 6 6.41 6 8C6 15 3 17 3 17H21C21 17 18 15 18 8Z" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M13.73 21C13.55 21.3 13.3 21.55 13 21.73C12.7 21.9 12.35 21.99 12 21.99C11.65 21.99 11.3 21.9 11 21.73C10.7 21.55 10.45 21.3 10.27 21" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+
+    <a href="#" class="user-avatar">
+      <img src="assets/images/GEF.png" alt="Perfil de Geferson" width="32" height="32" loading="lazy">
+    </a>
+  </div>
+</header>
+
+<div class="page-wrapper">
+  <main class="watching-area">
+    <section class="watching-video" aria-labelledby="video-title">
+      <div class="video-player">
+        <iframe
+          src="https://www.youtube.com/embed/wX0lIGBSyH3s"
+          title="Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <h1 id="video-title" class="video-title">
+        Semana Front-end | Dia 01: Construindo uma Landing Page no Mundo Invertido com HTML e CSS
+      </h1>
+
+      <div class="video-meta">
+        <div class="video-channel-block">
+          <img src="assets/images/dIO-LOGO.jpg" alt="Canal DIO" class="channel-avatar" width="42" height="42" loading="lazy">
+          <div class="video-channel-texts">
+            <span class="channel-name">DIO</span>
+            <span class="channel-subs">122 mil inscritos</span>
+          </div>
+          <button class="pill-button pill-button--subscribe">Inscreva-se</button>
+        </div>
+
+        <div class="video-actions">
+          <button class="pill-button" aria-label="Curtir">
+            <img src="assets/images/like.svg" alt="" width="20" height="20" loading="lazy">
+            <span>2 mil</span>
+          </button>
+          <button class="pill-button" aria-label="Não gostei">
+            <img src="assets/images/deslike.svg" alt="" width="20" height="20" loading="lazy">
+            <span>Não gostei</span>
+          </button>
+          <button class="pill-button" aria-label="Compartilhar">
+            <img src="assets/images/share.svg" alt="" width="20" height="20" loading="lazy">
+            <span>Compartilhar</span>
+          </button>
+          <button class="pill-button" aria-label="Download">
+            <img src="assets/images/download.svg" alt="" width="20" height="20" loading="lazy">
+            <span>Download</span>
+          </button>
+          <button class="pill-button pill-button--dots" aria-label="Mais ações">...</button>
+        </div>
+      </div>
+
+      <p class="video-stats">
+        28.418 visualizações • Transmitido ao vivo em 23 ago. de 2022
+      </p>
+
+      <div class="video-description">
+        <p>
+          Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS. Para isso, criaremos uma landing page com a temática da série Stranger Things, a qual contará com a implementação de um theme switcher (light e dark) para explorarmos os mistérios do mundo invertido.
+        </p>
+        <p class="video-tags">#tecnologia #programação #DIO</p>
+        <p class="video-upload-date-main">Publicado em 16 de julho de 2025</p>
+      </div>
+    </section>
+  </main>
+
+  <aside class="right-sidebar" aria-labelledby="sidebar-heading">
+    <h2 id="sidebar-heading" class="sidebar-heading">Próximos vídeos</h2>
+    <ul class="video-list" role="list">
+      <li class="video-card">
+        <a class="video-card__thumb" href="https://www.youtube.com/watch?v=2alSqrlrUtw" target="_blank" rel="noopener">
+          <img src="assets/images/Conhecendo a F1rst.jpg" alt="Conhecendo a F1rst! O escritório de tecnologia do Santander." loading="lazy">
+          <span class="duration">12:34</span>
+        </a>
+        <div class="video-card__info">
+          <a href="https://www.youtube.com/watch?v=2alSqrlrUtw" class="title">Conhecendo a F1rst! O escritório de tecnologia do Santander.</a>
+          <a href="https://www.youtube.com/@diomakethechange/featured" class="channel">DIO</a>
+          <span class="meta">2,2 mil visualizações • há 1 ano</span>
+        </div>
+      </li>
+
+      <li class="video-card">
+        <a class="video-card__thumb" href="https://www.youtube.com/watch?v=zBCQKMmfH90" target="_blank" rel="noopener">
+          <img src="assets/images/lançamento-Santander.jpg" alt="Como construir uma carreira de sucesso no Santander?" loading="lazy">
+          <span class="duration">08:45</span>
+        </a>
+        <div class="video-card__info">
+          <a href="https://www.youtube.com/watch?v=zBCQKMmfH90" class="title">Como construir uma carreira de sucesso no Santander?</a>
+          <a href="https://www.youtube.com/@diomakethechange/featured" class="channel">DigitalInnovationOne</a>
+          <span class="meta">12 mil visualizações • há 4 anos</span>
+        </div>
+      </li>
+
+      <li class="video-card">
+        <a class="video-card__thumb" href="https://www.youtube.com/watch?v=x6UpUoGhDUE" target="_blank" rel="noopener">
+          <img src="assets/images/Decolando-carreira-santander.jpg" alt="Dicas de carreira com Santander" loading="lazy">
+          <span class="duration">1:09:40</span>
+        </a>
+        <div class="video-card__info">
+          <a href="https://www.youtube.com/watch?v=x6UpUoGhDUE" class="title">Dicas de carreira com Santander</a>
+          <a href="https://www.youtube.com/@diomakethechange/featured" class="channel">DIO</a>
+          <span class="meta">30 mil visualizações • há 3 anos</span>
+        </div>
+      </li>
+
+      <li class="video-card is-upcoming">
+        <a class="video-card__thumb" href="https://www.youtube.com/watch?v=IgRewPf0KmY" aria-disabled="true">
+          <img src="assets/images/Mentoria-Santander.jpg" alt="Ferramentas de Copiloto com IA: EM BREVE" loading="lazy">
+          <span class="badge-upcoming">EM BREVE</span>
+        </a>
+        <div class="video-card__info">
+          <a href="https://www.youtube.com/watch?v=IgRewPf0KmY" class="title">Ferramentas de Copiloto com IA</a>
+          <a href="https://www.youtube.com/@diomakethechange/featured" class="channel">DIO</a>
+          <span class="meta">Pré-estreia</span>
+        </div>
+      </li>
+
+      <li class="video-card">
+        <a class="video-card__thumb" href="https://www.youtube.com/watch?v=x6UpUoGhDUE&t=3s" target="_blank" rel="noopener">
+          <img src="assets/images/carreira-de-sucesso.jpg" alt="Como construir uma carreira de sucesso no Santander?" loading="lazy">
+          <span class="duration">1:09:40</span>
+        </a>
+        <div class="video-card__info">
+          <a href="https://www.youtube.com/watch?v=x6UpUoGhDUE&t=3s" class="title">Dicas de carreira com Santander</a>
+          <a href="https://www.youtube.com/@diomakethechange/featured" class="channel">DIO</a>
+          <span class="meta">30 mil visualizações • há 3 anos</span>
+        </div>
+      </li>
+
+        <li class="video-card">
+          <a class="video-card__thumb" href="https://www.youtube.com/watch?v=ti-QDsORxCY&list=PLPFhNx6dMDJqxX5baOh62MNRvuOgbqfkw" target="_blank" rel="noopener">
+            <img src="assets/images/conheca-santander.png" alt="Conheça o Santander" loading="lazy">
+            <span class="duration">00:49</span>
+          </a>
+          <div class="video-card__info">
+            <a href="https://www.youtube.com/watch?v=ti-QDsORxCY&list=PLPFhNx6dMDJqxX5baOh62MNRvuOgbqfkw" class="title">Conheça o Santander</a>
+            <a href="https://www.youtube.com/@diomakethechange/featured" class="channel">DigitalInnovationOne</a>
+            <span class="meta">1 mil visualizações • há 3 anos</span>
+          </div>
+        </li>
+
+        <li class="video-card">
+          <a class="video-card__thumb" href="https://www.youtube.com/watch?v=24Ik5S77XrI" target="_blank" rel="noopener">
+            <img src="assets/images/ciberseguranca.jpg" alt="Como iniciar uma carreira em cibersegurança no setor financeiro com Santander" loading="lazy">
+            <span class="duration">1:11:15</span>
+          </a>
+          <div class="video-card__info">
+            <a href="https://www.youtube.com/watch?v=24Ik5S77XrI" class="title">Como iniciar uma carreira em cibersegurança no setor financeiro com Santander</a>
+            <a href="https://www.youtube.com/@diomakethechange/featured" class="channel">DIO</a>
+            <span class="meta">4,6 mil visualizações • há 1 ano</span>
+          </div>
+        </li>
+
+        <li class="video-card">
+          <a class="video-card__thumb" href="https://www.youtube.com/watch?v=XO8M-5EszDI" target="_blank" rel="noopener">
+            <img src="assets/images/codegirls.jpg" alt="Lançamento Santander Code Girls 2025" loading="lazy">
+            <span class="duration">1:16:34</span>
+          </a>
+          <div class="video-card__info">
+            <a href="https://www.youtube.com/watch?v=XO8M-5EszDI" class="title">Lançamento Santander Code Girls 2025</a>
+            <a href="https://www.youtube.com/@diomakethechange/featured" class="channel">DigitalInnovationOne</a>
+            <span class="meta">4,4 mil visualizações • há 2 semanas</span>
+          </div>
+        </li>
+
+    </ul>
+  </aside>
+</div>
+</body>
+</html>
